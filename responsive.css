@@ -1,0 +1,377 @@
+@media (max-width:600px) {
+    .page1{
+        min-height: 50vh;
+        width: 100vw;
+        padding-top: 12vw;
+    }
+    
+    .nav-box{
+        display: flex;
+        align-items: center;
+        justify-content: flex-end;
+        width: 100%;
+        padding: 4.3vw 5.5vw;
+        position: fixed;
+        top: 0;
+    }
+
+    .nav-box svg{
+        scale: 0.9;
+    }
+    
+    .nav-part-2{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 3vw;
+        display: none;
+    }
+    
+    .hero-text-box{
+        width: 72%;
+        margin-left: 7%;
+        height: fit-content;
+        overflow-y: hidden;
+        position: relative;
+        z-index: 9999999;
+    }
+    
+    .hero-title{
+        position: relative;
+        overflow: hidden;
+        padding-top: 15vw;
+    }
+    
+    .hero-title:before{
+        content: "01";
+        font-family: "Silkserif RegularItalic";
+        font-size: 6vw;
+        position: absolute;
+        left: 7%;
+        top: 10%;
+        font-weight: 300;
+    }
+    
+    
+    .hero-text-box h1{
+        text-transform: uppercase;
+        font-size: 9.2vw;
+        font-weight: 600;
+        line-height: 1.2;
+    }
+
+    .page2{
+        height: 100vh;
+        width: 100%;
+        padding-top: 13vh;
+    }
+    
+    .video-container{
+        height: 66vh;
+        width: 100vw;
+        position: relative;
+        left: 0%;
+        background-image: url("https://obys.agency/wp-content/uploads/2022/11/Showreel-2022-preview-1.jpg");
+        background-size: cover;
+        background-position: center;
+        cursor: none;
+    }
+    
+    .video-container .video-crsr{
+        position: absolute;
+        height: 15vw;
+        width: 15vw;
+        background-color: #ffa63d;
+        border-radius: 50%;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%,-50%);
+        z-index: 999;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .video-crsr .play-icon{
+        font-size: 5vw;
+    }
+
+    .page3{
+        min-height: 100vh;
+        width: 100%;
+        position: relative;
+        padding: 2vw 0;
+    }
+
+    .page3 .underline{
+        margin-left: 0;
+        margin-right: 7%;
+        width: 95%;
+    }
+    
+    .project-section{
+        margin-left: 7%;
+    }
+    
+    .project-heading{
+        font-size: 9vw;
+        text-transform: uppercase;
+        position: relative;
+    }
+    
+    .project-heading::before{
+        content: "02";
+        font-family: "Silkserif RegularItalic";
+        font-size: 6vw;
+        position: absolute;
+        left: 0%;
+        top: -90%;
+        font-weight: 300;
+    }
+    
+    .image-container-div{
+        padding: 1vw;
+        position: relative;
+        display: flex;
+        align-items: flex-start;
+        justify-content: flex-start;
+        flex-wrap: wrap;
+        flex-direction: column;
+    }
+    
+    .image-div{
+        height: 90vw;
+        width: 90vw;
+        position: relative;
+        flex-shrink: 0;
+        margin:10vw 5vh;
+    }
+
+    .image-title{
+        font-size: 4vw;
+        position: absolute;
+        font-weight: 700;
+        top: -7%;
+    }
+
+    .image-description{
+        width: 90%;
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-start;
+        margin:4vw 0;
+        padding-bottom: 2vw;
+        border-bottom: 1px solid white;
+    }
+    
+    .image-description .desc1{
+        width: 75%;
+    }
+    
+    .image-div:nth-child(1){
+        height: 90vw;
+        width: 90vw;
+    }
+    
+    .image-div img{
+        height: 100%;
+        width: 90%;
+        object-fit: cover;
+        object-position: center;
+    }
+    
+    .page3-circle1{
+        display: none;
+    }
+    
+    .page3-circle2{
+        display: none;
+    }
+
+    .page4{
+        min-height: 100vh;
+        width: 100%;
+        position: relative;
+        margin-top: 12vw;
+    }
+    
+    .about-page{
+        width: 90vw;
+        margin-left: 7%;
+        position: relative;
+    }
+    
+    .about-heading{
+        font-size: 9vw;
+        text-transform: uppercase;
+        position: relative;
+    }
+    
+    .about-heading::before{
+        content: "03";
+        font-family: "Silkserif RegularItalic";
+        font-size: 5vw;
+        position: absolute;
+        left: 0%;
+        top: -90%;
+        font-weight: 300;
+    }
+    
+    .about-page .underline{
+        height: 2px;
+        width: 90%;
+        background-color: #fff;
+        margin: 5vw 0 10vw 0;
+    }
+    
+    .about-text{
+        font-size: 5.5vw;
+        width: 90%;
+        padding: 2vw 0;
+    }
+    
+    .about-image-box{
+        display: flex;
+        flex-direction: column;
+        margin-top: 12vw;
+        gap: 5vw;
+    }
+    
+    .about-image{
+        width: 90%;
+    }
+    
+    .about-description{
+        width: 90%;
+        font-size: 3.8vw;
+        line-height: 1.4;
+    }
+    
+    .achievements{
+        padding: 3.75vw 4.29vw 5.4vw;
+        width: 90%;
+        background-color: #3f7df4;
+        position: absolute;
+        margin-left: 0%;
+        margin-top: 10%;
+    }
+    
+    .achievement-box{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        gap: 30px;
+        padding: 2vw 0;
+    }
+    
+    .achievement-mentions{
+        font-size: 2.8vw;
+        font-weight: 600;
+    }
+    
+    .achievement-text{
+        font-size: 2.2vw;
+        font-weight: 700;
+    }
+
+    .page5{
+        margin-top: 60vw;
+        min-height: 100vh;
+        width: 100%;
+    }
+    
+    .page5-title{
+        margin-left: 7%;
+        padding-bottom: 6vw;
+        font-size: 6vw;
+    }
+    
+    .marquee-left, .marquee-right{
+        white-space: nowrap;
+        margin-bottom: -2vw;
+    }
+    
+    .marquee-left h1{
+        display: inline-block;
+        font-size: 9vw;
+        font-weight: 500;
+        -webkit-text-stroke: 1px #fff;
+        color: transparent;
+        text-transform: uppercase;
+        animation: marqueeEffect 27s linear infinite;
+    }
+    
+    .marquee-right h1{
+        display: inline-block;
+        font-size: 9vw;
+        font-weight: 500;
+        -webkit-text-stroke: 1px #fff;
+        color: transparent;
+        text-transform: uppercase;
+        animation: marqueeEffect 27s linear infinite reverse;
+    }
+
+    .footer{
+        min-height: 100vh;
+        width: 90vw;
+        margin-left: 7%;
+    }
+    
+    .footer-heading{
+        font-size: 9vw;
+        text-transform: uppercase;
+        position: relative;
+    }
+    
+    .footer-heading::before{
+        content: "04";
+        font-family: "Silkserif RegularItalic";
+        font-size: 5vw;
+        position: absolute;
+        left: 0%;
+        top: -90%;
+        font-weight: 300;
+    }
+    
+    .footer-details{
+        display: flex;
+        align-items: flex-start;
+        justify-content: space-between;
+        flex-direction: column;
+        gap: 8vw;
+        padding-right: 2vw;
+        padding-bottom: 2.5vh;
+        margin-top: 10vw;
+    }
+    
+    .detail-title{
+        font-size: 4.2vw;
+        font-weight: 600;
+        letter-spacing: 0.3px;
+        margin-bottom: 3.2vw;
+    }
+    
+    .detail-list{
+        font-size: 3.2vw;
+        font-weight: 400;
+        padding: 1vw;
+    }
+    
+    .detail-address-box{
+        padding-left: 0vw;
+    }
+    
+    .detail-address{
+        font-size: 2.9vw;
+        width: 100%;
+    }
+    
+    .detail-mail{
+        font-size: 2.9vw;
+    }
+
+    .footer-copyright{
+        margin: 2vw 0;
+        padding-bottom: 4vw;
+    }
+}
